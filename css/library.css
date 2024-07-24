@@ -1,0 +1,149 @@
+/* ROOT */
+:root{
+    /* PRIMARY COLORS */
+    --very-dark-blue: hsl(243, 87%, 12%);
+    --desaturated-blue:  hsl(238, 22%, 44%);
+
+    /* ACCENT COLORS */
+    --moderate-cyan:hsl(170, 45%, 43%);
+    --bright-blue: hsl(224, 93%, 58%);
+
+    /* NEUTRAL COLORS */
+    --light-grayish-blue: hsl(240, 75%, 98%);
+    --light-grey:hsl(0, 0%, 75%);
+}
+
+/* COLOR CLASSEES */
+.moderate-cyan{
+    color: var(--moderate-cyan);
+}
+.bright-blue{
+    color: var(--bright-blue);
+}
+.very-dark-blue{
+    color: var(--very-dark-blue);
+}
+.desaturated-blue{
+    color: var(--desaturated-blue);
+}
+.light-grayish-blue{
+    color: var(--light-grayish-blue);
+}
+.light-grey{
+    color: var(--light-grayish-blue);
+}
+.bg-light-grayish-blue{
+    background: var(--light-grayish-blue);
+}
+.bg-desaturated-blue{
+    background: var(--desaturated-blue);
+}
+.bg-very-dark-blue{
+    background: var(--very-dark-blue);
+}
+.attribution-a{
+    color: hsl(228, 45%, 44%);
+}
+.white{
+    color: white;
+}
+.form-texts{
+    font-size: 11px;
+}
+/* FELX AND SPACING */
+.flex{
+    display: flex;
+    align-items: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+.left-right-padding{
+    padding: 0 1.5rem;
+}
+.bottom{
+    margin-top: -2rem;
+}
+.top{
+    margin-top: 1rem;
+}
+.text-center{
+    text-align: center;
+}
+.gap{
+    gap: 1rem;
+}
+.p-padding{
+    padding: 2rem 0 1rem 0;
+}
+
+/* FONT FAMILIES */
+/*  RALEWAY */
+.raleway-thin{
+    font-family: Raleway;
+    font-size: 400;
+}
+.raleway-bold{
+    font-family: Raleway;
+    font-weight: 700;
+}
+/* OPEN SANS */
+.open-sans{
+    font-family: "Open Sans";
+    font-weight: 400;
+}
+.open-sans-bold-name{
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 11px;
+}
+.open-sans-bold-position{
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 8px;
+}
+
+/* INPUT */
+.input{
+    background: white;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 3px;
+}
+
+/*  BUTTON */
+.button{
+    background: var(--bright-blue);
+    border: none;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 3px;
+}
+
+/* USELESS LINE */
+.line{
+    background: var(--moderate-cyan);
+    height: 2px;
+    width: 10rem;
+    margin: -1.5rem auto 2rem auto;
+}
+
+/* BACKGROUND CURVE */
+.bg-curve{
+    width: 100%;
+}
+
+/* IMAGE */
+.circle-image{
+    border-radius: 50%;
+    height: 2rem;
+}
+
+.testimonial-space{
+    gap: 0.5rem;
+}
+
+/* NO-STYLE-LIST */
+.list{
+    list-style: none;
+}

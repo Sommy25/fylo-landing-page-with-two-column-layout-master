@@ -1,0 +1,92 @@
+@import url(reset.css);
+@import url(library.css);
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    font-size: 16px;
+    padding-top: 2rem;
+}
+nav img{
+    width: 6rem;
+}
+nav ul{
+    list-style: none;
+    gap: 1rem;
+}
+#comp-section{
+    margin-top: 5rem;
+}
+section img{
+    margin-bottom: 2rem;
+}
+section h1{
+    margin-bottom: 1rem;
+}
+#first-input{
+    width: 100%;
+    border: 1px solid var(--desaturated-blue);
+    margin-top: 2rem;
+}
+#first-button{
+    width: 100%;
+    font-weight: 500;
+    color: white;
+    margin-top: 1rem;
+}
+#h3-frist{
+    padding: 5rem 0 0 0;
+}
+a{
+    gap: 0.5rem;
+    text-decoration: none;
+    justify-content: center;
+}
+a img{
+    margin-top: 1.9rem;
+}
+figure{
+    width: 18rem;
+    /* outline: 2px solid black; */
+    background: white;
+    padding: 1rem 0.5rem 1rem 1.5rem;
+    border-radius: 4px;
+
+}
+figure img{
+    margin-bottom: 0.5rem;
+}
+figure p{
+    font-size: 11px;
+    font-weight: 600;
+    font-family: "Open Sans";
+}
+#figure{
+    padding-bottom: 5rem;
+}
+/* #last-text{
+    padding: 0 3rem 0 3rem;
+} */
+#last-input{
+    width: 15rem;
+    margin: 0 auto;
+    padding: 0.5rem 0.5rem;
+}
+form{
+    flex-direction: column;
+    gap: 0.5rem;
+}
+#last-button{
+    width: 15rem;
+    color: white;
+}
+.last-section{
+    padding: 5rem 1.5rem;
+}
+#white-logo{
+    padding-bottom: 2rem;
+    padding-top: 4rem;
+}
+footer div{
+    margin-bottom: 3rem;
+}
