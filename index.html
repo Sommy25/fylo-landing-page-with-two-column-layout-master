@@ -29,84 +29,101 @@
   </header>
 
   <main>
-    <section class="left-right-padding text-center">
-      <img src="./images/illustration-1.svg" alt="">
-      <h1 class="very-dark-blue raleway-bold">All your files in one secure location, accessible anywhere.</h1>
+    <section class="left-right-padding text-center desktop-flex">
+      <img id="illustration-desktop" src="./images/illustration-1.svg" alt="">
+      <div class="desktop-mode">
+        <div class="desktop-text">
+          <h1 class="very-dark-blue raleway-bold desktop-h1">All your files in one secure location, accessible anywhere.</h1>
 
-      <p class="open-sans very-dark-blue">
-        Fylo stores your most important files in one secure location. 
-        Access them wherever you need, share and collaborate with friends, 
-        family, and co-workers.
-      </p>
-
-      <input id="first-input" type="email" placeholder="Enter your email..." class="input open-sans">
-      <button id="first-button" class="button open-sans">Get Started</button>
+          <p class="open-sans very-dark-blue desktop-p">
+            Fylo stores your most important files in one secure location. 
+            Access them wherever you need, share and collaborate with friends, 
+            family, and co-workers.
+          </p>
+          <div class="first-form-gap">
+            <input id="first-input" type="email" placeholder="Enter your email..." class="input open-sans">
+            <button id="first-button" class="button open-sans">Get Started</button>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="comp-section">
       <img src="./images/bg-curve-mobile.svg" alt="" class="bg-curve">
       <div id="figure" class="bottom left-right-padding bg-light-grayish-blue">
-        <img src="./images/illustration-2.svg" alt="">
-        <h3 id="h3-frist" class="very-dark-blue raleway-bold text-center"> Stay productive, wherever you are</h3>
+        <div class="desktop-flex">
+          <img id="illustration-desktop" src="./images/illustration-2.svg" alt="">
 
-        <p class="open-sans p-padding">
-          Never let location be an issue when accessing your files. Fylo has you 
-          covered for all of your file storage needs.
-        </p>
-        <p class="open-sans">
-          Securely share files and folders with friends, family and colleagues for 
-          live collaboration. No email attachments required!
-        </p>
-        <a href="" class="flex moderate-cyan">See how Fylo works <img src="./images/icon-arrow.svg" alt="" class=""></a>
-        <div class="line"></div>
-        <figure>
-          <img src="./images/icon-quotes.svg" alt="">
-          <p>
-            Fylo has improved our team productivity by an order of magnitude. Since 
-            making the switch our team has become a well-oiled collaboration machine.
-          </p>
-          <div class="flex top testimonial-space">
-            <img class="circle-image" src="./images/avatar-testimonial.jpg" alt="">
-            <div>
-              <p class="open-sans-bold-name very-dark-blue">Kyle Burton</p>
-              <p class="open-sans-bold-position very-dark-blue">Founder & CEO, Huddle</p>
+          <div class="desktop-text">
+            <h3 id="h3-frist" class="very-dark-blue raleway-bold text-center"> Stay productive, wherever you are</h3>
+            <div class="desktop-text2">
+              <p class="open-sans p-padding">
+                Never let location be an issue when accessing your files. Fylo has you 
+                covered for all of your file storage needs.
+              </p>
+              <p class="open-sans">
+                Securely share files and folders with friends, family and colleagues for 
+                live collaboration. No email attachments required!
+              </p>
+              <a href="" class="flex moderate-cyan">See how Fylo works <img src="./images/icon-arrow.svg" alt="" class=""></a>
+              <div class="line"></div>
+              <figure>
+                <img src="./images/icon-quotes.svg" alt="">
+                <p>
+                  Fylo has improved our team productivity by an order of magnitude. Since 
+                  making the switch our team has become a well-oiled collaboration machine.
+                </p>
+                <div class="flex top testimonial-space">
+                  <img class="circle-image" src="./images/avatar-testimonial.jpg" alt="">
+                  <div>
+                    <p class="open-sans-bold-name very-dark-blue">Kyle Burton</p>
+                    <p class="open-sans-bold-position very-dark-blue">Founder & CEO, Huddle</p>
+                  </div>
+                </div>
+              </figure>
             </div>
           </div>
-        </figure>
+        </div>
       </div>
     </section>
-    <section class="bg-desaturated-blue white last-section">
-      <h3 class="raleway-bold text-center">Get early access today</h3>
-      <p class="text-center top open-sans" id="last-text">
-        It only takes a minute to sign up and our free starter tier is extremely generous. 
-        If you have any questions, our support team would be happy to help you.
-      </p>
-      <form action="" class="flex form-texts open-sans top">
-        <input type="email" placeholder="email@example.com" class="input" id="last-input">
+    <section class="purple bg-desaturated-blue white last-section desktop-flex">
+      <div class="desktop-text3">
+        <div class="purple-section">
+          <h3 class="raleway-bold text-center">Get early access today</h3>
+          <p class="text-center top open-sans" id="last-text">
+            It only takes a minute to sign up and our free starter tier is extremely generous. 
+            If you have any questions, our support team would be happy to help you.
+          </p>
+        </div>
+      </div>
+      <form action="" class="form-texts open-sans top">
+        <div><input type="email" placeholder="email@example.com" class="input" id="last-input"></div>
         <button class="button" id="last-button">Get Started For Free</button>
       </form>
     </section>
   </main>
   <footer class="bg-very-dark-blue left-right-padding white open-sans gap" >
     <img id="white-logo" src="./images/logo.svg" alt="">
-    <div>
-      <p class="flex gap"><img src="./images/icon-phone.svg" alt=""> Phone: +1-543-123-4567</p>
-      <p class="flex gap top"><img src="./images/icon-email.svg" alt="" class=";li"> example@fylo.com </p>
-    </div>
-    <div>
-      <p>About Us</p>
-      <p class="top">Jobs</p>
-      <p class="top">Press</p>
-      <p class="top">Blog</p>
-    </div>
-    <div>
-      <p>Contact Us</p>
-      <p class="top">Terms</p>
-      <p class="top"> Privacy</p>
+    <div class="desktop-flex footer">
+      <div>
+        <p class="flex gap"><img src="./images/icon-phone.svg" alt=""> Phone: +1-543-123-4567</p>
+        <p class="flex gap top"><img src="./images/icon-email.svg" alt="" class=";li"> example@fylo.com </p>
+      </div>
+      <div>
+        <p>About Us</p>
+        <p class="top">Jobs</p>
+        <p class="top">Press</p>
+        <p class="top">Blog</p>
+      </div>
+      <div>
+        <p>Contact Us</p>
+        <p class="top">Terms</p>
+        <p class="top"> Privacy</p>
+      </div>
     </div>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="#">Sommy25</a>.
     </p>
   </footer>
 </body>
