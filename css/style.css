@@ -1,8 +1,8 @@
 @import url(reset.css);
 @import url(library.css);
+@import url(desktop.css);
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-
 body{
     font-size: 16px;
     padding-top: 2rem;
@@ -89,76 +89,4 @@ form{
 }
 footer div{
     margin-bottom: 3rem;
-}
-
-@media (min-width: 1080px) {
-    .desktop-flex{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    #illustration-desktop{
-        width: 45%;
-        order: 1;
-    }
-    #first-input, #first-button{
-        margin-top: 0;
-    }
-    #first-input{
-        width: 60%;
-    }
-    #first-button{
-        width: 30%;
-    }
-    .text-center{
-        text-align: left;
-    }
-    .purple-section{
-        width: 83%;
-    }
-    .desktop-mode{
-        width: 50%;
-    }
-    .desktop-text{
-        width: 87%;
-    }
-    .desktop-text h1{
-        font-size: 2rem;
-    }
-    .purple-section h3{
-        font-size: 1.5rem;
-    }
-    .first-form-gap{
-        margin-top: 1rem;
-        display: flex;
-        align-items: center;
-        gap: 1rem;
-    }
-    #h3-frist{
-        font-size: 2rem;
-    }
-    .desktop-text2{
-        width: 77%;
-    }
-    #last-input{
-        width: 30rem;
-    }
-    form{
-        width: 50%;
-    }
-    .desktop-text3{
-        width: 50%;
-    }
-    .purple{
-        gap: 5rem;
-    }
-    .form-texts{
-        display: block;
-    }
-    #last-button{
-        margin-top: 1rem;
-    }
-    .footer{
-        align-items: baseline;
-    }
 }
